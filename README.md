@@ -8,15 +8,19 @@ A regular expression is a small pattern language for describing and matching set
 
 ## What is inside
 
-- `01-literals-and-classes.md` matching exact characters and sets of characters.
-- `02-quantifiers-and-anchors.md` how many, and where in the string.
-- `03-groups-and-alternation.md` grouping, capturing, and "this or that."
-- `04-lookarounds-in-brief.md` matching based on what is around without consuming it.
-- `05-pitfalls-and-backtracking.md` the common mistakes and catastrophic backtracking.
+- [01-literals-and-classes.md](01-literals-and-classes.md) matching exact characters and sets of characters.
+- [02-quantifiers-and-anchors.md](02-quantifiers-and-anchors.md) how many, and where in the string.
+- [03-groups-and-alternation.md](03-groups-and-alternation.md) grouping, capturing, and "this or that."
+- [04-lookarounds-in-brief.md](04-lookarounds-in-brief.md) matching based on what is around without consuming it.
+- [05-pitfalls-and-backtracking.md](05-pitfalls-and-backtracking.md) the common mistakes and catastrophic backtracking.
 
 ## The stance
 
 This reference treats regex as a readable tool, not a write-only puzzle. Understanding what each piece does lets you build patterns deliberately and debug them when they misbehave. The goal is correct, maintainable patterns and an awareness of the traps, especially the performance trap of catastrophic backtracking.
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
